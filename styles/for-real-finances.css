@@ -1,0 +1,100 @@
+body {
+    background-color: #abc;
+    font-family: 'Outfit', sans-serif;
+}
+.nav {
+    background-color: #4b679e;
+    padding: 0;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul a {
+    text-align: right;
+}
+.nav li {
+    display: inline-block;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    display: block;
+    padding: 0px;
+    text-align: center;
+}
+.list ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+  }
+  .list li {
+    list-style-type: none;
+    
+  }
+.list {
+    display: flex;
+    justify-content: center;
+}
+.boxes {
+font-size: 12px;
+}
+h2 {
+font-size: 22px;
+}
+.dashboard {
+    background-color: white;
+    border: 2px solid #4b679e;
+    margin: 0 5px 10px 5px;
+    padding: 0px 10px 40px 10px;
+    width: 250px;
+    height: 400px;
+}
+.budget {
+    background-color: white;
+    border: 2px solid #4b679e;
+    margin: 0 5px 10px 5px;
+    padding: 0px 10px 40px 10px;
+    width: 250px;
+    height: 400px;
+}
+.checkbooks {
+    background-color: white;
+    border: 2px solid #4b679e;
+    margin: 0 5px 10px 5px;
+    padding: 0px 10px 40px 10px;
+    width: 250px;
+    height: 400px;
+}
+.money {
+    background-color: white;
+    border: 2px solid #4b679e;
+    margin: 0 5px 10px 5px;
+    padding: 0px 10px 40px 10px;
+    width: 250px;
+    height: 400px;
+}
+button {
+    border: none;
+    background-color: #4b679e;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+}
+.title {
+    text-align: left;
+}
+a:hover {
+    color: lightsalmon;
+}
+.title a {
+    padding: 10px 0 10px 50px;
+}
+.ulcont {
+    padding: 0px 50px 0px 0px;
+}
