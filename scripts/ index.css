@@ -1,0 +1,80 @@
+body {
+    font-family: 'Outfit', sans-serif;
+}
+.nav {
+    background: #aaa;
+    padding: 0;
+    margin: 0;
+    }
+  .nav ul {
+    text-align: right;
+  }
+  
+  .nav li {
+    display: inline-block;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    display: block;
+    padding: 0;
+    text-align: center;
+  }
+  .nav c {
+    text-align: left;
+    padding: 5px;
+   
+  }
+  .title {
+    text-align: left;
+    padding: 5px;
+  }
+    
+    
+  a:hover {
+    color: white;
+  }
+  .boxes {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .dashboard {
+    border: solid 1px black;
+    height: 450px;
+    width: 250px;
+    padding: 20px 20px 40px 20px;
+  }
+  .budget {
+    border: solid 1px black;
+    height: 450px;
+    width: 250px;
+    padding: 20px 20px 40px 20px;
+  }
+  .checkbooks {
+    border: solid 1px black;
+    height: 450px;
+    width: 250px;
+    padding: 20px 20px 40px 20px;
+  }
+  .money {
+    border: solid 1px black;
+    height: 450px;
+    width: 250px;
+    padding: 20px 20px 40px 20px;
+  }
+  button {
+    display: inline-block;
+    width: 266px;
+    height: 26px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 15px;
+  }
+  p {
+    font-size: 12px;
+  }

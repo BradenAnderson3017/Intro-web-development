@@ -1,0 +1,29 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.box {
+    border: 1px solid black;
+    width: 300px;
+    height: 275px;
+    text-align: center;
+}
+.firstname {
+    margin-bottom: 10px;
+}
+.lastname {
+    margin-bottom: 10px;
+}
+.email {
+    margin-bottom: 10px;
+}
+.submit {
+    margin-top: 40px;
+}
+input[type="submit"] {
+    width: 266px;
+    height: 26px;
+    background-color: white;
+}
