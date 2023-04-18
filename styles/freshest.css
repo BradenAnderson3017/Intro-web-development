@@ -1,0 +1,155 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    height: 2275px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    height: 2275px;
+}
+.image {
+    background-image: url(/Users/bradenanderson/Desktop/Braden/web-development/projects/intro-web-development/images/HTMLProjectAssets/green-vegetables-on-brown-wooden-chopping-board.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1050px;
+    margin: -125px 0 0 0;
+    overflow: hidden;
+
+    
+}
+h1,h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+h1 {
+    font-size: 100px;
+    border-bottom: 2px solid white;
+    line-height: 1.9;
+    margin: 125px 480px 0;
+   
+}
+h2 {
+    margin-top: 20px;
+    font-weight: lighter;
+    font-size: 50px;
+}
+.nav-list{
+display: flex;
+justify-content: flex-end;
+padding-left: 0;
+padding-top: 160px;
+}
+.item {
+list-style: none;
+padding-left: 20px;
+}
+.item a{
+    font-weight: lighter;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.item:first-child{
+padding-left: 0px; 
+margin-right: auto;
+ font-weight: 550;  
+ font-size: 18px;
+}
+.nav {
+    border-bottom:2px solid white;
+    line-height: 0;
+    display: block;
+    width: auto;
+    margin: 0 60px;
+}
+.boxes {
+    margin-top: -90px;
+}
+.coconut {
+    
+    background-color: black;
+    color: white;
+    width: auto;
+    height: 495px;
+    text-align: left;
+    
+    
+}
+.pineapple {
+    background-color: #151414;
+    color: white;
+    width: auto;
+    height: 495px;
+    text-align: left;
+
+}
+ 
+.noodles {
+    background-color: #262525;
+    color: white;
+    width: auto;
+    height: 495px;
+    text-align: left;
+    
+}
+.coconut-pic {
+   background-image: url(/Users/bradenanderson/Desktop/Braden/web-development/projects/intro-web-development/images/HTMLProjectAssets/human-holding-a-bread-745988.jpg); 
+   height: 495px;
+   width: 550px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   float: left;
+   background-position: center center;
+ 
+
+
+}
+.pineapple-pic {
+    background-image: url(/Users/bradenanderson/Desktop/Braden/web-development/projects/intro-web-development/images/HTMLProjectAssets/green-pineapple-fruit-with-brown-framed-sunglasses-beside-1161547.jpg);
+    height: 495px;
+   width: 550px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   float: right;
+   background-position: center center;
+  
+
+}
+.noodles-pic {
+background-image: url(/Users/bradenanderson/Desktop/Braden/web-development/projects/intro-web-development/images/HTMLProjectAssets/cooked-pasta-on-brown-wooden-bowl-803963.jpg);
+height: 495px;
+   width: 550px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   float: left;
+   background-position: center center;
+   
+
+
+}
+h3 {
+    font-size: 45px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+p {
+    font-size: 27px;
+    font-weight: lighter;
+    text-align: left;
+    margin-top: 15px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 110px 100px;
+    grid-column-gap: 0px;
+    
+}
