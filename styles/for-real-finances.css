@@ -8,6 +8,9 @@ body {
     margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 .nav ul a {
     text-align: right;

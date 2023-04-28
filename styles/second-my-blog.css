@@ -1,7 +1,9 @@
 body {
-    background-image: url(/Users/bradenanderson/Desktop/Braden/web-development/projects/intro-web-development/images/sunset.jpg);
+    background-image: url(../images/sunset.jpg);
     background-position: top center;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #333;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
@@ -26,6 +28,7 @@ p {
 .nav {
    background-color: #333;
    display: block;
+   margin: -20px -10px 0;
 }
 ul li a:hover {
     background-color: white;
