@@ -1,0 +1,17 @@
+div.boxes {
+background-color: rgb(150, 148, 148);
+height:100px;
+width: 100px;
+margin: 10px 10px 10px 10px;
+display: inline-block;
+
+}
+div.toggleSwitch {
+    background-color: #333;
+}
+#boxDiv {
+    margin: 150px 450px;
+  }
+body {
+  background-color: #f0f0f0;  
+}
